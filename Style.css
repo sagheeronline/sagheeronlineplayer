@@ -1,5 +1,4 @@
-img{border:1px solid tomato;  padding: 0px; margin:0px; height:95px; width: 95px;} body{ background-color: #222;} 
-							#search{width:85%;
+#search{width:85%;
 Height:30px;
 text-align:center;
 border:1px solid red;
@@ -7,32 +6,9 @@ border-radius:10px;
 Padding:10px;}
 .thumb{border-radius:100%;
 margin:5px;margin-top:5px;}
-							
-							.text-rainbow-animation {
-  font-family:Cursive;
-  font-size:14px;
-  background-image: 
-    linear-gradient(to right, red,orange,yellow,green,white,indigo,violet, red); 
-  -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;  
-  animation: rainbow-animation 600s linear infinite;
-}
 
-@keyframes rainbow-animation {
-    to {
-        background-position: 4500vh;
-    }
-}
-/*rainbow*/
-       .sagheeronline, .btn:hover {
-        
-        border-radius: 100%;
-        
-   }
-   
-   
-   
-    .switch {
+
+.switch {
   position: relative;
   display: inline-block;
   width: auto;
@@ -66,6 +42,28 @@ z-index: 999999;
   
 	}
 	
+	.text-rainbow-animation {
+  font-family:Cursive;
+  font-size:14px;
+  background-image: 
+    linear-gradient(to right, red,orange,yellow,green,white,indigo,violet, red); 
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+  animation: rainbow-animation 600s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}
+/*rainbow*/
+       .sagheeronline, .btn:hover {
+        
+        border-radius: 100%;
+        
+   }
+    img{border:1px solid tomato;  padding: 0px; margin:0px; height:95px; width: 95px;} body{ background-color: #222;} 
 /* Created by Dream TV For Dream TV Background */
 html,
 body {
@@ -157,38 +155,3 @@ body {
 }
 
   /* Copyright © 2020,Dream TV All Rights Reserved. */
-       .sagheeronline, .btn:hover {
-        
-        border-radius: 100%;
-        
-   }
-        /* Style the active class, and buttons on mouse-over */
-       .active, .btn:hover {
-      	box-shadow: 1px 1px 15px 0px rgba(0, 255, 0);
- background-color: #00FF00;
-        color: white;
-        }
-      </style><html>
-<style>
-.sagheeronlinefilter {
-  float: left;
-  padding: 0px 7px;
-  
-  color: #ffffff;
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
-  margin: 2px;
-  display: none;
-}
-
-.show {
-  display: block;
-}
-
-.container {
-  margin-top: 20px;
-  overflow: hidden;
-}
-
-/* Style the buttons */
